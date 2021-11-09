@@ -5,12 +5,12 @@
 
 - 🌱 I’m currently learning Computer Science in Artificial Intelligence and Machine Learning.
 
-- 💞️ I’m looking to collaborate on nothing for now.
+- 💞️ I’m looking to collaborate for my current project which is Human interactive program.
 
 - 📫 How to reach me 
 
-     Instagram : satyam.mishra90
-     gmail     : sid905030@gmail.com
+- Instagram : satyam.mishra90
+- gmail     : sid905030@gmail.com
     
 
 <!---
