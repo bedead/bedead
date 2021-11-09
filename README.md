@@ -10,7 +10,7 @@
 - 📫 How to reach me 
 
 - Instagram : satyam.mishra90
-- gmail     : sid905030@gmail.com
+- gmail     : satyam.work.only@gmail.com
     
 
 <!---
