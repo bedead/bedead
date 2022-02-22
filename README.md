@@ -5,8 +5,8 @@
 - 📫 How to reach me 
 - gmail     : satyam.work.only@gmail.com
  
-https://img.shields.io/badge/Python-%20-brightgreen
-https://img.shields.io/badge/JAVA-%20-green
+(https://img.shields.io/badge/Python-%20-brightgreen)
+(https://img.shields.io/badge/JAVA-%20-green)
 <!---
 bedead/bedead is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
