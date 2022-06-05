@@ -7,7 +7,7 @@
 
 <img src="https://img.shields.io/badge/CSS-%20-brightgreen"><img src="https://img.shields.io/badge/JavaScript-%20-green"><img src="https://img.shields.io/badge/Godot%20Engine-%20-yellowgreen"><img src="https://img.shields.io/badge/BootStrap-%20-red">
 
-<img src="https://img.shields.io/badge/Graphic%20Design-%20-red"><img src="https://img.shields.io/badge/Canva-%20-green"><img src="https://img.shields.io/badge/Inkscape-%20-orange"><img src="https://img.shields.io/badge/Java-%20-lightgrey">
+<img src="https://img.shields.io/badge/Graphic%20Design-%20-red"><img src="https://img.shields.io/badge/Canva-%20-green"><img src="https://img.shields.io/badge/Inkscape-%20-orange">
 
 ![mail-at-satyam work only@gmail com](https://user-images.githubusercontent.com/89126855/155186137-4929ea83-bfe5-4922-aedb-1071563e2c93.svg)
 
