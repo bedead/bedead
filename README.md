@@ -1,5 +1,5 @@
 Just a stupid guy, trying out stuff until life gets hard😁
-https://portfolio-react-threejs-eta.vercel.app/
+https://satyammishra.vercel.app/
 
 
 ## 🌐 Socials:
