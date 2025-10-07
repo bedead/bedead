@@ -1,8 +1,9 @@
-Just a stupid guy, trying out stuff.
-https://satyammishra.vercel.app/
+##### Below are some cool quotes, that are automatically generated daily by AI.
 
+## Cool Quote
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/satyam-mishra-019bab225) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@Satyam_Mishra) 
+<!-- QUOTE:START -->
+##### 🌟 *2025-10-02*
 
-
+###### The mountain tests your heart, not just your legs. Climb with grit; success echoes the soul that perseveres
+<!-- QUOTE:END -->
