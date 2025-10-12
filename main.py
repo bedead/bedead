@@ -1,12 +1,22 @@
 import datetime
 import re
 import random
-
+import os
+import argparse
 from dotenv import load_dotenv
 
 from multi_generator import MultiModelGenerator
 
 load_dotenv()
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--quote_length", choices=["short", "medium", "long"], default=None,
+                    help="Control how long the generated quotes can be")
+args = parser.parse_args()
+
+
+QUOTE_LENGTH = args.quote_length or os.getenv("QUOTE_LENGTH", "medium")
 
 THEMES = [
     "motivational quote about perseverance and success",
@@ -18,10 +28,19 @@ THEMES = [
 ]
 
 
-def generate_quote() -> str:
+def generate_quote(length: str = "medium") -> str:
     theme_index = random.randint(0, len(THEMES) - 1)
     theme_values = THEMES[theme_index]
-    prompt = f"Generate a unique, original {theme_values}. Keep it under 25 words."
+
+    
+    if length == "short":
+        word_limit = 10
+    elif length == "medium":
+        word_limit = 25
+    else:  # long
+        word_limit = 50
+
+    prompt = f"Generate a unique, original {theme_values}. Keep it under {word_limit} words."
     quote = MultiModelGenerator(prompt)
     if quote:
         return quote
@@ -37,7 +56,7 @@ def generate_quote() -> str:
 
 if __name__ == "__main__":
     today = datetime.date.today().strftime("%Y-%m-%d")
-    quote = generate_quote()
+    quote = generate_quote(QUOTE_LENGTH)
 
     # Read current README.md
     with open("README.md", "r", encoding="utf-8") as f:
