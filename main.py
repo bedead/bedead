@@ -1,18 +1,12 @@
 import datetime
 import re
-import os
 import random
 
 from dotenv import load_dotenv
 
+from multi_generator import MultiModelGenerator
+
 load_dotenv()
-
-from google import genai
-
-# Configure Google API
-KEY = os.getenv("GEMINI_API_KEY")
-# print("Using API key:", KEY)
-client = genai.Client(api_key=KEY)
 
 THEMES = [
     "motivational quote about perseverance and success",
@@ -24,15 +18,21 @@ THEMES = [
 ]
 
 
-def generate_quote():
+def generate_quote() -> str:
     theme_index = random.randint(0, len(THEMES) - 1)
     theme_values = THEMES[theme_index]
     prompt = f"Generate a unique, original {theme_values}. Keep it under 25 words."
-    response = client.models.generate_content(
-        model="gemini-2.0-flash-lite", contents=prompt
-    )
-    if response.text:
-        return response.text.strip()
+    quote = MultiModelGenerator(prompt)
+    if quote:
+        return quote
+
+    # Fallback quote
+    fallback_quotes = [
+        "Keep pushing forward — every bug is a step to mastery.",
+        "Code, break, learn, repeat.",
+        "Simplicity is the ultimate sophistication.",
+    ]
+    return random.choice(fallback_quotes)
 
 
 if __name__ == "__main__":
