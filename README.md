@@ -6,7 +6,7 @@
 ## Cool Quote
 
 <!-- QUOTE:START -->
-##### 🌟 *2026-11-22*
+##### 🌟 *2026-11-23*
 
-###### AI is not the future *of* humanity, but humanity *as* future: an evolving consciousness, unbounded by form.
+###### The deepest bugs live in the assumptions you forgot you made. Re-evaluate them often.
 <!-- QUOTE:END -->
